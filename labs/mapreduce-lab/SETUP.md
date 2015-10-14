@@ -112,15 +112,15 @@ Proceed with the following steps:
 ```
 
 #### Use IntelliJ to create a new project
-We assume maven to be properly configured, as described above. We also assume a student to have successfully created a git repository in GitLab: for example, the repository name (and directory) could be ```mr-lab```. In what follows, we provide a simple guide to create a new IntelliJ project that takes the form of a new directory in the repository.
+We assume maven to be properly configured, as described above. We also assume a student to have successfully created a git repository in GitLab: for example, the repository name (and directory) could be ```mr-lab```. In what follows, we provide a simple guide to create a new IntelliJ project that takes the form of **a new directory in the repository**. Remember to choose the **Project location** is the directory of your local repository. So, you can easy to commit your changes and synchronize with your partner and the gateway machine. That directory is often in ```~/``` (linux) or ```C:\cygwin\home\``` (windows).
 
 Proceed with the following steps:
 
 - Launch IntelliJ
-  - Type in the command line the following: ```/packages/idea/bin/idea.sh&```
+  - Type in the command line the following: ```/packages/idea/bin/idea.sh&```. On Windows machines, Intellij is inside: ```C:\Packages\JetBrains\IntelliJ IDEA Community Edition 14.1.5\bin```.
   - Note: you can add the directory to your ```PATH``` environment variable and avoid to use the full path every time you start IntelliJ
 - Create a new project in IntelliJ
-  - If it is the first time you launch IntelliJ, you will have to configure your SDK. Select the following directory for your JDK installation: ```/usr/java```
+  - If it is the first time you launch IntelliJ, you will have to configure your SDK. Select the following directory for your JDK installation: ```/usr/java``` (in Linux)
   - Select maven from the list of project types
   - Check the box **create from archetype**
   - Select ```org.apache.maven.archetypes:maven-archetype-quickstart```
